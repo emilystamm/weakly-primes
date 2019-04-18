@@ -1,4 +1,4 @@
-# weaklyprimes
+# weakly-primes
 Fast python algorithm for determining if a prime is weakly base b
 
 A prime number p is a weakly prime in base b if when written in its base b expansion p = a_nb^n + ... + a_1b + a_0, if you switch any a_i for any other integer in the set k in {0,...,b-1}\{a_i}, then the resulting number p' = a_nb^n + ... + kb^i + ... + a_1b + a_0 is composite. Tau proved that for any base b,  a positive propotions of primes are weakly prime base b. See https://en.wikipedia.org/wiki/Weakly_prime_number 
