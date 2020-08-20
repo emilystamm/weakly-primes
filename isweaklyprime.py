@@ -1,17 +1,4 @@
 # isweaklyprime.py
-
-# isprime
-# -------------------
-# Input: integer x
-# Ouput: True if x is prime, False otherwise
-
-# Use any prime testing algorithm, eg from sympy or:
-# def isprime(x):
-# 	if x == 1: return False
-# 	for i in range(2,x):
-# 		if x%i == 0: return False
-# 	return True	
-
 from sympy import isprime
 
 
