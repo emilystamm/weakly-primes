@@ -25,6 +25,6 @@ def isweakly(p,b):
             for j in range(1,b-t):
                 current = p - j*b**i
                 if isprime(current): return False
-            # increient the power	
+            # increment the power	
             i = i + 1
         return True
