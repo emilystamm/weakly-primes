@@ -7,4 +7,4 @@ In the weakly prime tests the author has seen, the prime is first converted to i
 
 This algorithm uses simple operations (addition, multiplication, exponentiation, and modular congruences) to determine if a number is weakly prime, making it much more efficient. Note one should use an efficient prime test for the isprime function - we use the sympy isprime.  
 
-  
+This algorithm was used as part of 2018 undergraduate thesis to collect numerical evidence on the proportion of weakly primes across bases. See An_Investigation_of_Nearly__Weakly_Primes_and_Related_Sieve_Formulations_Paper.pdf.   
